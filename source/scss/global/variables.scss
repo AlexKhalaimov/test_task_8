@@ -1,0 +1,37 @@
+//fonts
+$font-primary: 'Arial', sans-serif;
+$font-secondary: 'Lato', sans-serif;
+
+// colors
+$color-bg-green: #173817;
+$color-bg-pink: #FF97B3;
+$color-bg-light: #B3DFB3;
+$color-bg-red: #780D1A;
+$color-placeholder: #A9A9A9;
+$color-heading: #31363D;
+$color-success: #008751;
+$color-text-success: #007244;
+$color-alert: #D1003F;
+$color-focus: #00B56D;
+$color-hover: #D6D7D8;
+$color-yellow: #DBD978;
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+// Breakpoints
+$screen-xxs: 22.5em; // 360px
+$screen-xs: 30em; // 480px
+$screen-s: 40em; // 640px
+$screen-m: 48em; // 768px
+$screen-l: 64em; // 1024px
+$screen-xl: 71em; // 1136px
+$screen-xxl: 85.375em; // 1366px
+
+// layouts, spacing
+$gutter: 18px;
+$gutter-column: 80px;
+$container-width: 1354px + ($gutter-column * 2);
+
+// other
+$border-radius: 16px;
+$transition: all .3s ease-in-out;

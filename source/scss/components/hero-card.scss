@@ -1,0 +1,50 @@
+.hero-card__header {
+    margin-bottom: 16px;
+}
+
+.hero-card__socials {
+    background-color: $color-yellow;
+    display: inline-flex;
+    padding: 5px 18px;
+    border-radius: $border-radius;
+    column-gap: 22px;
+    margin: 0;
+}
+
+.hero-card__img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 15px 17px;
+    max-width: 309px;
+    margin: 0 auto 16px;
+}
+
+.hero-card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.hero-card__subtitle {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.gradient1 {
+    background: linear-gradient(to bottom, #FFDD22 50%, #383030 50%);
+}
+
+.gradient2 {
+    background: linear-gradient(to bottom, #780D1A 50%, #F73821 50%);
+}
+
+.gradient3 {
+    background: linear-gradient(to bottom, #FF97B3 50%, #E55C21 50%);
+}
+
+.gradient4 {
+    background: linear-gradient(to bottom, #A3C7ED 50%, #0A2640 50%);
+}

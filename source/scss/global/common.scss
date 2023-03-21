@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-white;
+    font-size: 16px;
+}
+
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+    width: 100%;
+    padding-inline: 15px;
+
+    @media screen and (min-width: $screen-l) {
+        padding-inline: 80px;
+    }
+}
+
+a[class] {
+    text-decoration: none;
+}
+
+ul[class] {
+    list-style-type: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.btn {
+    border-radius: $border-radius;
+    font-size: 14px;
+    transition: $transition;
+    padding: 10px;
+    min-height: 46px;
+    min-width: 123px;
+}
+
+.btn-more {
+    color: $color-black;
+    min-width: 284px;
+    min-height: 60px;
+    background-color: $color-bg-pink;
+    border-radius: 30px;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 23px;
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: center;
+
+    &:hover,
+    &:focus {
+        background-color: darken($color: $color-bg-pink, $amount: 15%);
+    }
+
+}
